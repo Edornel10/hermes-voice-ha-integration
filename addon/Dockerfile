@@ -10,15 +10,13 @@ FROM ${BUILD_FROM}
 # System dependencies
 # ---------------------------------------------------------------------------
 RUN apk add --no-cache \
-    python3 \
-    py3-pip \
-    py3-virtualenv \
     ffmpeg \
     alsa-lib-dev \
     portaudio-dev \
     git \
     curl \
     jq
+
 
 # ---------------------------------------------------------------------------
 # Clone Hermes Agent and this integration bundle
