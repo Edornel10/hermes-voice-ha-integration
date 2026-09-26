@@ -43,8 +43,7 @@ RUN python3 -m venv .venv && \
     "pydantic>=2.0" \
     "edge-tts>=6.1" \
     "sounddevice>=0.4" \
-    "numpy>=1.26" \
-    "faster-whisper>=1.0"
+    "numpy>=1.26" 
 
 # Optional: Piper TTS (offline)
 # RUN .venv/bin/pip install piper-tts && \
